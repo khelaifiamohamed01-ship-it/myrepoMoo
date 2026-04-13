@@ -16,3 +16,6 @@ graph TD
         EC2_1 --> RDS[(MySQL Database)]
         EC2_2 --> RDS
     end
+        EC2_1 --> RDS[(MySQL Database)]
+        EC2_2 --> RDS
+    end
