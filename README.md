@@ -19,3 +19,12 @@ graph TD
         EC2_1 --> RDS[(MySQL Database)]
         EC2_2 --> RDS
     end
+
+
+### Application Live
+This screenshot shows the TaskMaster application successfully running through the Load Balancer DNS.
+![App Working](screenshots/app-working.png)
+
+### Target Group Health Status
+Proof that the Auto Scaling Group and Load Balancer are correctly communicating with the EC2 instances.
+![Health Check](screenshots/healthy-targets.png)
